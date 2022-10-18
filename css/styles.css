@@ -34,6 +34,24 @@ nav ul li a {
   font-family: "Zen Dots", cursive;
 }
 
+table {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram {
+  background-color: black;
+}
+
+.facebook {
+  background-color: black;
+}
+
+.whatsapp {
+  background-color: black;
+}
+
 h3 {
   color: rgba(139, 0, 76, 0.822) !important;
   display: flex;
@@ -65,6 +83,55 @@ h1 {
   justify-content: center;
   color: rgba(139, 0, 76, 0.822);
   text-shadow: 0.1em 0.1em 0.2em black;
+  font-size: 60px;
+}
+
+.card-text {
+  color: black;
+}
+
+.ft {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "nuf alf" "nu al";
+}
+
+.nuezt {
+  grid-area: nu;
+}
+
+.nuezf {
+  grid-area: nuf;
+}
+
+.almendrat {
+  grid-area: al;
+}
+
+.almendraf {
+  grid-area: alf;
+}
+
+@media screen and (max-width: 480px) {
+  .ft {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "nuf" "nu" "alf" "al";
+  }
+}
+.col {
+  display: grid;
+  justify-items: center;
+  width: 600px;
+  height: 400px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 body {
