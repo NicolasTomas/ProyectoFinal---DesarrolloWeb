@@ -1,0 +1,27 @@
+@import "var";
+@import "nav";
+@import "clases";
+@import "contacto";
+@import "index";
+@import "nutricion";
+@import "productos";
+@import "ubicacion";
+
+body {
+    background-image: url(../imagenes/meghan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Atomic Age', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Codystar', cursive;
+    font-family: 'Concert One', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Noto Sans Avestan', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Zen Dots', cursive;
+}

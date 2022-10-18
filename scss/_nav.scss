@@ -1,0 +1,37 @@
+nav{
+    ul{
+        list-style-type: none;
+        display: flex;
+        li{
+            list-style: none;
+            list-style-type: none;
+            a:hover{
+                color: $color1 !important;
+                list-style: none;
+                list-style-type: none;
+                text-decoration: none;
+                color: $color2;
+                text-shadow: $sombra;
+            }
+            a{
+                text-shadow: $sombra;
+            }
+          }
+        }
+    }
+
+.nav-link {
+    margin: 3%;
+    color: $color2 !important;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Atomic Age', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Codystar', cursive;
+    font-family: 'Concert One', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Noto Sans Avestan', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Zen Dots', cursive;
+  }

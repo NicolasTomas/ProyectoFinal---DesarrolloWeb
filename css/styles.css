@@ -1,0 +1,89 @@
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  list-style-type: none;
+}
+nav ul li a:hover {
+  color: rgba(139, 0, 76, 0.822) !important;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+nav ul li a {
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.nav-link {
+  margin: 3%;
+  color: white !important;
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Atomic Age", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Codystar", cursive;
+  font-family: "Concert One", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Major Mono Display", monospace;
+  font-family: "Noto Sans Avestan", sans-serif;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Zen Dots", cursive;
+}
+
+h3 {
+  color: rgba(139, 0, 76, 0.822) !important;
+  display: flex;
+  justify-content: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+p {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Atomic Age", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Codystar", cursive;
+  font-family: "Concert One", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Major Mono Display", monospace;
+  font-family: "Noto Sans Avestan", sans-serif;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Zen Dots", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(139, 0, 76, 0.822);
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+body {
+  background-image: url(../imagenes/meghan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Atomic Age", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Codystar", cursive;
+  font-family: "Concert One", cursive;
+  font-family: "Courgette", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Major Mono Display", monospace;
+  font-family: "Noto Sans Avestan", sans-serif;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Zen Dots", cursive;
+}
+
+/*# sourceMappingURL=styles.css.map */
