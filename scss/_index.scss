@@ -10,6 +10,7 @@ h3 {
     color: $color2;
     display: flex;
     justify-content: center;
+    text-shadow: $sombra;
   }
   h1 {
     font-family: 'Archivo Black', sans-serif;
@@ -29,5 +30,6 @@ h3 {
     color: $color1;
     text-shadow: $sombra;
     font-size: 60px;
+
    
   }

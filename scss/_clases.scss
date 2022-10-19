@@ -3,3 +3,17 @@ table {
     display: flex;
     justify-content: center;
   }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    color: $color1; 
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
+  ul{
+    color: $color2;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+
+  

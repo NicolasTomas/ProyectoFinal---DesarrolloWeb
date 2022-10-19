@@ -40,6 +40,18 @@ table {
   justify-content: center;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgba(139, 0, 76, 0.822);
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+ul {
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
 .instagram {
   background-color: black;
 }
@@ -50,6 +62,16 @@ table {
 
 .whatsapp {
   background-color: black;
+}
+
+.card-title {
+  color: white;
+}
+
+.btn {
+  color: rgba(139, 0, 76, 0.822);
+  background-color: black;
+  border-color: rgba(139, 0, 76, 0.822);
 }
 
 h3 {
@@ -64,6 +86,7 @@ p {
   color: white;
   display: flex;
   justify-content: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 h1 {
@@ -87,7 +110,15 @@ h1 {
 }
 
 .card-text {
-  color: black;
+  color: white;
+}
+
+.mb-8 {
+  background-color: rgba(255, 255, 255, 0.493);
+}
+
+h5 {
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .ft {
