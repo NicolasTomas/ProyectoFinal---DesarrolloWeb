@@ -57,13 +57,9 @@ ul {
 
 .card-title {
   color: white;
-  display: flex;
-  justify-content: center;
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
   color: rgba(139, 0, 76, 0.822);
   background-color: black;
   border-color: rgba(139, 0, 76, 0.822);
@@ -75,10 +71,7 @@ ul {
 
 .card {
   padding-bottom: 0px;
-}
-
-.red {
-  margin-bottom: 20px;
+  border-radius: 4%;
 }
 
 h3 {
@@ -94,6 +87,7 @@ p {
   display: flex;
   justify-content: center;
   text-shadow: 0.1em 0.1em 0.2em black;
+  font-size: 30px;
 }
 
 h1 {
@@ -113,13 +107,12 @@ h1 {
   justify-content: center;
   color: rgba(139, 0, 76, 0.822);
   text-shadow: 0.1em 0.1em 0.2em black;
-  font-size: 40px;
+  font-size: 60px;
   margin: 20px;
 }
 
 .descripcion {
   margin: 20px;
-  font-size: 20px;
 }
 
 .card-text {
@@ -128,13 +121,6 @@ h1 {
 
 h5 {
   text-shadow: 0.1em 0.1em 0.2em black;
-  display: flex;
-  justify-content: center;
-}
-
-.col-md-4 {
-  display: flex;
-  justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -146,7 +132,7 @@ h5 {
 }
 .carta-productos {
   width: 200px;
-  height: 100px;
+  height: 200px;
 }
 
 .card {
@@ -176,6 +162,4 @@ body {
   font-family: "Noto Sans Avestan", sans-serif;
   font-family: "Qwitcher Grypen", cursive;
   font-family: "Zen Dots", cursive;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

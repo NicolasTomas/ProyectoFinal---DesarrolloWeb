@@ -1,9 +1,13 @@
 .card-text{
 color: white
 }
-.mb-8{
-    background-color: rgba(255, 255, 255, 0.493)
-}
+
 h5{
     text-shadow: $sombra;
+    display: flex;
+    justify-content: center
+}
+.col-md-4{
+    display: flex;
+    justify-content: center
 }

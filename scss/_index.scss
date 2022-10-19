@@ -11,6 +11,8 @@ h3 {
     display: flex;
     justify-content: center;
     text-shadow: $sombra;
+   
+   
   }
   h1 {
     font-family: 'Archivo Black', sans-serif;
@@ -29,7 +31,10 @@ h3 {
     justify-content: center;
     color: $color1;
     text-shadow: $sombra;
-    font-size: 60px;
-
-   
+    font-size: 40px;
+    margin: 20px;
+  }
+  .descripcion{
+    margin: 20px;
+    font-size: 20px;
   }

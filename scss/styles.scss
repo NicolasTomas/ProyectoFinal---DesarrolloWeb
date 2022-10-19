@@ -10,9 +10,10 @@
 body {
     background-image: url(../imagenes/meghan.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-    height: 100%;
+
     font-family: 'Archivo Black', sans-serif;
     font-family: 'Atomic Age', cursive;
     font-family: 'Bebas Neue', cursive;

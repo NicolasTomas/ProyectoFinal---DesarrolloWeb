@@ -1,19 +1,25 @@
-.instagram {
-    background-color: black;
-  }
-  .facebook {
-    background-color: black;
-  }
-  .whatsapp {
-    background-color: black;
-  }
+
   
   .card-title{
     color: white;
+    display: flex;
+    justify-content: center;
   }
  .btn{
+  display: flex;
+  justify-content: center;
   color: rgba(139, 0, 76, 0.822) ;
   background-color: black;
   border-color: rgba(139, 0, 76, 0.822) ;
  }
 
+.redes-fotos{
+  border-radius: 20%;
+}
+.card{
+  padding-bottom: 0px;
+}
+
+.red{
+    margin-bottom: 20px;
+  }

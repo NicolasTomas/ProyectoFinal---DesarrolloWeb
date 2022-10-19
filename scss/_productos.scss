@@ -1,28 +1,9 @@
-.ft {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      'nuf alf'
-      'nu al';
-  }
-  .nuezt {
-    grid-area: nu;
-  }
-  .nuezf {
-    grid-area: nuf;
-  }
-  .almendrat {
-    grid-area: al;
-  }
-  .almendraf {
-    grid-area: alf;
-  }
+
   
+
   @media screen and (max-width: 480px) {
-    .ft {
-      grid-template-columns: 1fr;
+    .carta-productos {
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       grid-template-areas:
         'nuf'
@@ -34,11 +15,11 @@
   }  
 
 
-
-.col {
-  display: grid;
-  justify-items: center;
-  width: 600px;
-  height: 400px
+.carta-productos{
+  width: 200px;
+  height: 100px;
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.493);
 }
 
